@@ -1,0 +1,14 @@
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table td {
+    text-align: center;
+}
+input[type="button"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    cursor: pointer; 
+}

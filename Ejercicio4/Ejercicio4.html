@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Cambiar Color</title>
+        <script>
+            function cambiarColor(){
+                var parrafo = document.getElementsByTagName("p");
+
+                for(var i=0; i<parrafo.length; i++){
+                    parrafo[i].style.color= "blue";
+                }
+
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>Párrafo número 1.</p>
+        <p>Párrafo número 2.</p>
+        <p>Párrafo número 3.</p>
+        <p>Párrafo número 4.</p>
+        <p>Párrafo número 5.</p>
+        <p>Párrafo número 6.</p>
+        <input type="button" value="Cambiar Color" onClick="cambiarColor()">
+    </body>
+
+</html>

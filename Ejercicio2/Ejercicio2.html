@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contador</title>
+        <script>
+            function contar(){
+                var numeroPantalla = document.getElementById("valor");
+                var nodo = numeroPantalla.childNodes[0];
+                var valor = parseInt(nodo.nodeValue);
+                var nuevoValor = valor+1;
+                nodo.nodeValue = nuevoValor;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="valor" onclick="contar()">1</h1>
+    </body>
+</html>

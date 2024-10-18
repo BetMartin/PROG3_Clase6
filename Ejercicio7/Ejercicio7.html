@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Validacion</title>
+        <link rel="stylesheet" href="formato.css">
+        <script src="validacion.js"></script>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Formulario</h1>
+        <form style="align-content: center;">
+            <lable for="nombre">Nombre: </lable>
+            <input type="text" id="nombre" name="nombre">
+    
+            <lable for="Clave">Clave: </lable>
+            <input type="text" id="clave" name="clave">
+            
+            <lable for="repeticionClave">Repetir Clave: </lable>
+            <input type="text" id="repeticionClave" name="repeticionClave">
+            
+            <input type="button" onclick="validarDatos()" value="Ingresar">
+
+            <p id="mensajeError"></p>
+        </form>
+
+    </body>
+</html>

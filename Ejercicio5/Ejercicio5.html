@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Listas</title>
+        <script>
+            function mostrarSoluciones(){
+                var lista = document.getElementById("lista");
+                
+                var solucion1 = document.createElement("li");
+                solucion1.textContent="Solución 1";
+                lista.appendChild(solucion1);
+
+                var solucion2 = document.createElement("li");
+                solucion2.textContent="Solución 2";
+                lista.appendChild(solucion2);
+            }
+        </script>
+    </head>
+
+    <body>
+        <ul id="lista"></ul>
+        <input type="button" value="agregar dos (li)" onClick="mostrarSoluciones()">
+    </body>
+
+</html>
